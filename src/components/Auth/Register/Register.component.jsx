@@ -102,7 +102,7 @@ const Register = () => {
       createdUser.user
         .updateProfile({
           displayName: userState.userName,
-          photoURL: `http://gravatar.com/avatar/${createdUser.user.uid}?d=identicon`,
+          photoURL: `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJReQQ-1xHr3MCv1r0JCE7O1IXaq-U2dRwOw&usqp=CAU`,
         })
         .then(() => {
           setIsLoading(false);

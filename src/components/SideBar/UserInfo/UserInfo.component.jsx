@@ -35,7 +35,10 @@ const UserInfo = (props) => {
               <Dropdown
                 trigger={
                   <span>
-                    <Image src={props.user.photoURL} avatar></Image>
+                    <Image
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJReQQ-1xHr3MCv1r0JCE7O1IXaq-U2dRwOw&usqp=CAU"
+                      avatar
+                    ></Image>
                     {props.user.displayName}
                   </span>
                 }
